@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "JHipsterAkil",
+    "packageName": "io.gitlab.jhipster.akil",
+    "packageFolder": "io/gitlab/jhipster/akil",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "NTc0MjczODc3M2ViZDUwN2JhZDgxZGY5OGE0ZjM3OWU0MzRjYTc3N2M0ODRjY2RlZDk5MmE1N2Q3NjE1NmE3MmIxZGM4YTQyMTY2YzhjOWQ3ZmU5ZmRkOWE0MjQ1YWE0NTY5ZTU1MTMwZmNjMGQzMjRhMzgwYjYxOGI3MTg5Y2Q="
+  },
+  "git-provider": "GitLab",
+  "git-company": "philemongloblehi",
+  "repository-name": "jhipster-akil-application"
+}
